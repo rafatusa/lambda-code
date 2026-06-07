@@ -13,6 +13,7 @@ env:
   NODE_VERSION: '18'
   AWS_REGION: ${{ secrets.AWS_REGION }}
   LAMBDA_FUNCTION_NAME: ${{ secrets.LAMBDA_FUNCTION_NAME }}
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   # ─────────────────────────────────────────
