@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb-base"],
+  "env": {
+    "node": true,
+    "es2021": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "rules": {
+    "no-console": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["**/__tests__/**"] }]
+  }
+}
